@@ -312,6 +312,7 @@ section h1 {
         font-size: 2rem;
     }
 }
+
 /* 🌙 Dark Mode */
 body.dark-mode {
     --color-body: #cbd5e1; /* Warna teks utama (abu terang) */
@@ -367,7 +368,7 @@ body.dark-mode #project .card:hover {
 
 /* Dark Mode */
 body.dark-mode .text-body {
-    color: #cbd5e1; /* abu-abu terang agar kontras dengan background gelap */
+    color: #cbd5e1 !important;
 }
 
 body.dark-mode {
